@@ -4,7 +4,7 @@ import { ForexChart } from "./ForexChart";
 import { ForexDataService } from "../services/ForexDataService";
 
 interface ChartContainerProps {
-	dataUrl?: string; // зробимо необов’язковим
+	dataUrl?: string;
 	width?: number;
 	height?: number;
 }
